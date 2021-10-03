@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+body {
+  background: linear-gradient(#836FFF, #5d52ab);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 64px;
+  background: radial-gradient(#fbfaff, #eeedf5);
+  box-shadow: 10px 10px 10px #2d2757;
+  border-radius: 20px 20px 200px 20px;
+  color: #1C1C1C;
+  padding: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+  
+}
+
+.foto {
+  border-radius: 10px 10px 100px 10px;
+  margin-right: 10px;
+  max-height: 150px;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo h1{
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.botaotema button {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 900px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #eeedf5;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(#836FFF, #6b5ccc);
+  margin-top: 10px;
+  border-radius: 10px 10px 200px 10px;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+ }
+
+.projeto-titulo {
+  font-weight: 900;
+  font-size: 24px;
+  list-style: none;
+}
+
+.projeto-titulo li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+.projeto-titulo li a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.dark {
+  background: linear-gradient(#262145, #141224);
+}
+
+.dark .container{
+  background: linear-gradient(#16161a, #0b0a0d);
+  box-shadow: 10px 10px 10px #0c0b17;
+  color: #eeedf5;
+}
+
+.dark .projeto{
+  background: linear-gradient(#262145, #141224);
+  box-shadow: 10px 10px 10px #0c0b17;
+}
+
+.dark .projeto-titulo li a{
+  color: #eeedf5;
+  text-decoration: none;
+  }
+
+.dark .botaotema button {
+  background: #16161a;
+  color: #eeedf5;
+  border: 1px solid #eeedf5;
